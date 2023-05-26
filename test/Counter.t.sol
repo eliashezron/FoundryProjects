@@ -13,6 +13,7 @@ contract CounterTest is Test {
     }
 
     function testIncrement() public {
+        console.log("testing increment", msg.sender);
         counter.increment();
         assertEq(counter.number(), 1);
     }

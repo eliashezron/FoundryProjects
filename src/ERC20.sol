@@ -9,3 +9,7 @@ contract Token is ERC20 {
         _mint(msg.sender, 1000000000000000000000000);
     }
 }
+
+import "@openzeppelin/contracts/access/Ownable.sol";
+
+contract OwnerOz is Ownable {}

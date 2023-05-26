@@ -14,3 +14,4 @@ docs/
 .env
 # installed dependencies
 lib/
+node_modules/
